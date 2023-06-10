@@ -1,0 +1,7 @@
+[1,"Installing 'rmarkdown' ...\r\n"]
+[1,"\r\n"]
+[1,"\r\n"]
+[1,"\r\n"]
+[1,"[1/12] Installing bslib...\r\n"]
+[1,"\r\n"]
+[2,"Error: package 'bslib' is not available\r\nIn addition: Warning messages:\r\n1: In value[[3L]](cond) : restarting interrupted promise evaluation\r\n2: error downloading 'https://cran.rstudio.com/src/contrib/PACKAGES.rds' [curl: (35) schannel: next InitializeSecurityContext failed: Unknown error (0x80092012) - The revocation function was unable to check revocation for the certificate.] \r\n3: error downloading 'https://rstudio-buildtools.s3.amazonaws.com/renv/mran/packages.rds' [curl: (35) schannel: next InitializeSecurityContext failed: Unknown error (0x80092012) - The revocation function was unable to check revocation for the certificate.] \r\nTraceback (most recent calls last):\r\n10: sourceWithProgress(script = \"C:/Users/LENOVO/AppData/Local/Temp/67ce-e870-8c00-376d\", \r\n        encoding = \"UTF-8\", con = stdout(), importRdata = NULL, exportRdata = NULL)\r\n 9: eval(statements[[idx]], envir = sourceEnv)\r\n 8: eval(statements[[idx]], envir = sourceEnv)\r\n 7: renv::install(\"bslib\")\r\n 6: retrieve(names(remotes))\r\n 5: handler(package, renv_retrieve_impl(package))\r\n 4: renv_retrieve_impl(package)\r\n 3: renv_available_packages_latest(package)\r\n 2: stopf(\"package '%s' is not available\", package)\r\n 1: stop(sprintf(fmt, ...), call. = call.)\r\nExecution halted\r\n"]
