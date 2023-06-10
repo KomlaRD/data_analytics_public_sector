@@ -5,8 +5,14 @@ format: html
 
 ```{r load-packages}
 pacman::p_load(
-  tidyverse
+  tidyverse,
+  rio,
+  here
 )
+```
+
+```{r import-dataset}
+df <- import(here("data", "adm2020.csv"))
 ```
 
 
